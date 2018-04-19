@@ -1,0 +1,94 @@
+html, body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-image: url("../../pictures/darkness/darkness.png");
+    height: 100%;
+    margin: 0;
+}
+
+header {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: #ffffff;
+    overflow: auto;
+    border-bottom: 5px solid #cccccc;
+}
+
+h1 {
+    float: left;
+    font-weight: bold;
+    font-size: 40px;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    margin-left: 17%;
+    width: 350px;
+    padding: 30px;
+}
+
+.linksClick {
+    color: #777777;
+    font-size: 20px;
+    float: right;
+    margin-right: 17%;
+    padding: 40px 40px 40px 100px;
+}
+
+.about {
+    padding: 0px 5px;
+    border-right: 2px solid #dddddd;
+}
+
+.portfolio {
+    padding: 0px 5px;
+    border-right: 2px solid #dddddd;
+}
+
+.contact {
+    padding: 0px 5px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.aboutMe {
+    color: #777777;
+    background-color: #ffffff;
+    width: 960px;
+    margin: 30px auto;
+    padding: 30px;
+}
+
+h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 30px;
+    color: #4aaaa5;
+    padding-bottom: 30px;
+    border-bottom: solid #dddddd;
+}
+
+.meat {
+    margin: 20px 0px;
+}
+
+.myFace {
+    float: left;
+    margin: 0px 20px 20px 0px;
+}
+
+img {
+    margin: 20px 20px 20px 0px;
+}
+
+.footerFiller {
+    background-color: #666666;
+    padding: 20px 50%;
+    border-top: 5px solid #4aaaa5;
+    min-height: 100%;
+    margin-top: 20px;
+    margin-bottom: -90px;
+}
+
+.footer, .push {
+    height: 50px;
+}
