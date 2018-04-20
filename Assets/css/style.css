@@ -23,7 +23,7 @@ h1 {
     color: #ffffff;
     background-color: #4aaaa5;
     width: 350px;
-    padding: 30px;
+    padding: 30px 0px 30px 40px;
 }
 
 .linksClick {
@@ -59,18 +59,11 @@ h1 {
     margin: 0px auto 0px auto;
 }
 
-.sutffInItFilled {
-    background-color: #ffffff;
-    width: 960px;
-    margin: 30px auto;
-    padding: 10px;
-}
-
-.aboutMe {
+.sendMessage {
     float: left;
     color: #777777;
     background-color: #ffffff;
-    padding: 30px;
+    padding: 40px;
 }
 
 h2 {
@@ -93,10 +86,14 @@ h2 {
 }
 
 /* Portfolio css */
+.bigBody {
+    background-color: #ffffff;
+    padding: 40px;
+}
 
 .pic1, .pic2, .pic3, .pic4, .pic5 {
     position: relative;
-    margin: 20px;
+    margin: 20px 40px 20px 0px;
 }
 
 h4 {
@@ -124,14 +121,9 @@ h4 {
 .submitBttn {
     color: #ffffff;
     background-color: #4aaaa5;
-    margin: 20px 0px;
+    margin: 20px 0px 0px 0px;
     padding: 10px 50px;
 }
-
-html {
-    position: relative;
-}
-
 .connectMe {
     float: right;
     background-color: #ffffff;
@@ -160,5 +152,6 @@ h6 {
     left: 0;
     bottom: 0;
     width: 100%;
+    margin-top: 20px;
     position: relative;
 }  
