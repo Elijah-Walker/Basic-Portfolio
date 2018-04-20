@@ -8,15 +8,13 @@
 header {
     font-family: 'Georgia', Times, Times New Roman, serif;
     background-color: #ffffff;
-    height: 100px;
+    height: auto;
     overflow: auto;
     border-bottom: 5px solid #cccccc;
+    margin-bottom: 40px;
 }
 
 /* header stuff */
-.headerStuff {
-    margin-bottom: 30px;
-}
 
 h1 {
     float: left;
@@ -58,10 +56,18 @@ h1 {
 /* Body stuff */
 .stuffInIt {
     width: 960px;
+    margin: 0px auto 0px auto;
+}
+
+.sutffInItFilled {
+    background-color: #ffffff;
+    width: 960px;
     margin: 30px auto;
+    padding: 10px;
 }
 
 .aboutMe {
+    float: left;
     color: #777777;
     background-color: #ffffff;
     padding: 30px;
@@ -105,13 +111,8 @@ h4 {
     bottom: 10px;
 }
 
-/* Contact html */
-.left {
-
-}
-
 .nameField, .emailField {
-    padding: 10px 150px;
+    padding: 10px 280px;
     border: 2px solid #777777;
 }
 
