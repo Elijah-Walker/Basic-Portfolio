@@ -150,15 +150,15 @@ h5 {
     margin: 10px 5px 0px 0px;
 }
 
-.footerFiller {
+h6 {
     background-color: #666666;
     padding: 20px 50%;
-    border-top: 5px solid #4aaaa5;
-    margin-top: 20px;
 }
 
-footer {
-    position: static;
-    top: 20px;
-    bottom: 0px;
-}
+.footer {
+    border-top: 0.4em solid #4aaaa5;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    position: relative;
+}  
