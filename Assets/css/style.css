@@ -86,10 +86,13 @@ h2 {
 }
 
 /* Portfolio css */
+
 .bigBody {
     background-color: #ffffff;
     padding: 40px;
 }
+
+/* Need to put 2 pictures on a line */
 
 .pic1, .pic2, .pic3, .pic4, .pic5 {
     position: relative;
@@ -108,14 +111,10 @@ h4 {
     bottom: 10px;
 }
 
-.nameField, .emailField {
-    padding: 10px 280px;
-    border: 2px solid #777777;
-}
+/* contact css */
 
-.messageField {
-    padding: 150px 150px;
-    border: 2px solid #777777;
+.field {
+    padding: 10px 0px;
 }
 
 .submitBttn {
@@ -124,6 +123,7 @@ h4 {
     margin: 20px 0px 0px 0px;
     padding: 10px 50px;
 }
+
 .connectMe {
     float: right;
     background-color: #ffffff;
